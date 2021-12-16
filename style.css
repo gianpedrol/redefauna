@@ -1,0 +1,595 @@
+/*!
+Theme Name: redefaunav2
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: redefaunav2
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+redefaunav2 is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway';
+}
+/* NAV */
+nav ul{
+	text-decoration: none;
+	list-style-type: none;
+	padding: 15px 15px;
+}
+
+nav ul li{
+	display: inline;
+	padding: 0 20px ;
+}
+
+nav ul li a{
+	font-weight: 700;
+	color: #DFCABB;
+	font-weight: 14px;
+}
+
+nav ul li a:hover{
+	font-weight: 700;
+	color: #203230;
+	font-weight: 14px;
+	text-decoration: none;
+}
+/* HEADER HOME */
+section.header-home{
+	background: url('../redefaunav2/images/bghome.png') #6f8753;
+	background-repeat: no-repeat;
+	height: 95vh;
+	background-size: 100%;
+	margin-bottom: -15px;
+	z-index: 1;
+}
+
+div.logo-principal img{
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.titulo-principal > h2:nth-child(1){
+	background-color: #203230;
+	color: #DFCABB;
+	font-weight: 800;
+	padding: 8px;
+	width: 70%;
+	padding-left: 10px;
+	font-size: 25px;
+}
+
+.titulo-principal > h2:nth-child(2){
+	background-color: #203230;
+	color: #DFCABB;
+	font-weight: 800;
+	padding: 8px;
+	padding-left: 10px;
+	font-size: 25px;
+}
+
+.titulo-principal p {
+	color:#DFCABB ;
+	font-size: 18px;
+	padding: 8px;
+	padding-left: 10px;
+}
+
+
+
+
+/* CONTEUDO HOME */
+
+.conteudo-home{
+	background-color: #6f8753;
+}
+
+.bgdesenho img {
+	/* max-width: 80px; */
+	position: fixed;
+	left: 40px;
+	max-height: 100%;
+	/* margin-top: -4%; */
+	object-fit: cover;
+	height: 100vh;
+	width: 5%;
+	margin-right: 20px;
+	
+}
+
+.sobre-home > h2:nth-child(1){
+	background-color: #203230;	
+	color: #6f8753;
+	font-weight: 800;
+	width: 120px;
+	padding: 5px;
+}
+.sobre-home > h2:nth-child(2){
+	background-color: #203230;	
+	color: #6f8753;
+	font-weight: 800;
+	width: 150px;
+	padding: 5px;
+}
+
+.sobre-home p{
+	padding: 30px 0;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.sobre-home{
+	margin-left: 5%;
+	padding : 80px 30px;
+}
+
+.secao-interna-home{
+	margin-left: 5%;
+	padding : 100px 30px;
+}
+
+.box-fazemos{
+	background-color: #856443;
+	max-width:80%;
+	padding: 30px;
+	box-shadow: 4px 4px 6px -1px rgba(41, 41, 41, 0.75);
+	-webkit-box-shadow: 4px 4px 6px -1px rgba(41, 41, 41, 0.75);
+	-moz-box-shadow: 4px 4px 6px -1px rgba(41, 41, 41, 0.75);
+}
+
+.box-fazemos img{
+	max-width: 120px;
+	position: absolute;
+	left: -55px;
+	top: -15px;
+}
+
+.box-fazemos h3{
+	font-size: 18px;
+	font-weight: 700;
+	color: #203230;
+}
+.box-fazemos p{
+	font-size: 14px;
+	font-weight: 600;
+	color:white;
+}
+
+/* PÁGINA MEMBROS */
+section.header-membros{
+	background: url('../redefaunav2/images/membros.png') #856443;
+	background-repeat: no-repeat;
+	min-height: 47vh;
+	background-size: 100%;
+	margin-bottom: -15px;
+	z-index: 1;
+}
+
+section.header-membros img{
+	padding: 20px 0;
+	max-width: 30%;
+	margin: 0 auto;
+}
+.conteudo-membros{
+	background-color: #856443;
+}
+
+.sobre-membros{
+	margin-left: 40px;
+}
+
+.sobre-membros h2{
+	background-color: #203230;	
+	color: #6f8753;
+	font-weight: 800;
+	width: 190px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+.sobre-membros p{
+	padding: 30px 0;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.geral-membros{
+	margin-left: 40px;
+}
+
+.geral-membros img{
+	max-width: 40px;
+	display: inline;
+}
+
+.geral-membros p{
+	color: #DFCABB;
+	font-size: 16px;
+	display: inline;
+	font-weight: 700;
+	padding: 0 8px;
+}
+
+.box-membros img {
+	max-width: 200px;
+	display: flex;
+	align-self: center;
+}
+
+.box-membros h3{
+	padding-top: 10px ;
+	font-size: 24px;
+	font-weight: 700;
+	color: #DFCABB;
+}
+
+.box-membros h4{
+	font-size: 22px;
+	font-weight: 600;
+	color: #DFCABB;
+}
+
+.box-membros span{
+	font-size: 18px;
+	font-weight: 600;
+	color: #DFCABB;
+}
+
+.informacoes-membros {
+	padding-top: 10px;
+}
+
+.informacoes-membros i{
+	text-align: center;
+	background-color: #DFCABB;
+	font-size: 14px;
+	padding: 8px;
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+}
+
+.informacoes-membros a{
+	color: #203230;
+	font-size: 14px;
+	display: inline;
+	font-weight: 700;
+	padding: 0 8px;
+}
+
+.site-footer-membros{
+	background: url('../redefaunav2/images/bgfooter.png') #856443;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 48vh;
+	z-index: 1;
+}
+
+/* Página de Projetos */
+section.header-projetos{
+	background: url('../redefaunav2/images/bgprojetos.png') #DFCABB;;
+	background-repeat: no-repeat;
+	min-height: 47vh;
+	background-size: 100%;
+	margin-bottom: -15px;
+	z-index: 1;
+}
+
+section.header-projetos img{
+	padding: 20px 0;
+	max-width: 30%;
+	margin: 0 auto;
+}
+
+section.conteudo-projetos{
+	background-color: #DFCABB;
+}
+
+.sobre-projetos{
+	padding: 50px 0;
+	margin-left: 40px;
+}
+.sobre-projetos h2{
+	background-color: #203230;	
+	color: #DFCABB;
+	text-align: center;
+	font-weight: 800;
+	width: 190px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+.sobre-projetos p{
+	padding: 30px 0;
+	color: #203230;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.geral-projetos{
+	margin-left: 40px;
+}
+
+.geral-projetos img{
+	max-width: 40px;
+	display: inline;
+}
+
+.geral-projetos p{
+	color: #203230;
+	font-size: 16px;
+	display: inline;
+	font-weight: 700;
+	padding: 0 8px;
+}
+.box-post-projeto{
+	max-width: 90%;
+}
+.box-post-projeto img{
+	max-width: 80%;
+	max-height: 200px;
+}
+
+.box-post-projeto h3{
+	font-size: 18px;
+	font-weight: 700;
+	max-width: 80%;
+}
+
+.box-post-projeto a{
+	padding: 4px;
+	font-size: 14px;
+	font-weight: 600;
+	background-color: #856443;
+	color: #DFCABB;
+}
+
+
+/* Página de Publicações */
+section.header-publicacoes{
+	background: url('../redefaunav2/images/bgpublicacoes.png') white;
+	background-repeat: no-repeat;
+	min-height: 47vh;
+	background-size: 100%;
+	margin-bottom: -15px;
+	z-index: 1;
+}
+
+section.header-publicacoes img{
+	padding: 20px 0;
+	max-width: 30%;
+	margin: 0 auto;
+}
+
+.sobre-publicacoes{
+	padding: 50px 0;
+	margin-left: 40px;
+}
+.sobre-publicacoes h2{
+	background-color: #203230;	
+	color: white;
+	text-align: center;
+	font-weight: 800;
+	width: 235px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+.sobre-publicacoes p{
+	padding: 30px 0;
+	color: #203230;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.sobre-publicacoes img{
+	max-width: 40px;
+	display: inline;
+}
+
+.box-post-blog{
+	margin: 25px 0;
+	max-width: 75%;
+	padding: 15px;
+	box-shadow: 4px 4px 6px -1px rgba(41, 41, 41, 0.75);
+	-webkit-box-shadow: 4px 4px 6px -1px rgba(41, 41, 41, 0.75);
+	-moz-box-shadow: 4px 4px 6px -1px rgba(41, 41, 41, 0.75); 
+}
+
+.box-post-blog h3{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.box-post-blog p{
+	color: #203230;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.box-post-blog a{
+	padding: 4px;
+	font-size: 14px;
+	font-weight: 600;
+	background-color: #856443;
+	color: #DFCABB;
+}
+
+
+
+/* MEDIA SCREENS */
+
+@media  screen and (max-width: 800px) {
+	nav ul{
+		background-color: #DFCABB;
+	}
+	nav ul li a{
+		font-weight: 700;
+		color: #203230;
+		font-weight: 14px;
+	}
+	nav ul li{
+		display: block;
+		padding: 0 20px ;
+	}
+	section.header-home{
+		background-size: auto;
+		margin-bottom: 0;
+		height: auto;
+	}
+	.bgdesenho img{
+		display: none;
+	}
+	.sobre-home{
+		padding: 10px;
+	}
+
+	.secao-interna-home{
+		padding: 20px 40px;
+	}
+	.box-fazemos{
+		margin-top: 4%;
+	}
+}
+
+/* SINGLE POST*/
+
+section.header-single{
+	background: url('../redefaunav2/images/bgpublicacoes.png') white;
+	background-repeat: no-repeat;
+	min-height: 47vh;
+	background-size: 100%;
+	margin-bottom: -15px;
+	z-index: 1;
+}
+
+section.header-single img{
+	padding: 20px 0;
+	max-width: 30%;
+	margin: 0 auto;
+}
+
+.container-post{
+	width: 70%;
+	padding: 30px;
+	box-shadow: 4px 4px 6px -1px rgba(41, 41, 41, 0.75);
+	-webkit-box-shadow: 4px 4px 6px -1px rgba(41, 41, 41, 0.75);
+	-moz-box-shadow: 4px 4px 6px -1px rgba(41, 41, 41, 0.75); 
+
+}
+
+.container-post h3{
+	font-size: 18px;
+	font-weight: 700;
+	margin: 25px 0;
+}
+
+.date-post h5{
+	font-size: 16px;
+	color: #856443;
+	margin: 25px 0;
+}
+
+.autor-post{
+	margin: 25px 0;
+	font-size: 16px;
+}
+.content-post{
+	padding: 10px 0;
+	font-size: 16px;
+}
+
+/*Footer */
+
+button{
+	background-color: #DFCABB !important;
+}
+
+.social-footer  i{
+	text-align: center;
+	background-color: #856443;
+	font-size: 24px;
+	padding: 8px;
+	border-radius: 40px;
+	width: 40px;
+	height: 40px;
+}
+
+.social-footer a{
+	color:#DFCABB;
+}
+
+.titulo-footer h5{
+	text-transform: uppercase;
+	font-size: 18px;
+	color:#856443 ;
+	font-weight: 700;
+}
+
+.fale-conosco i{
+	text-align: center;
+	background-color: #DFCABB;
+	font-size: 24px;
+	padding: 8px;
+	border-radius: 40px;
+	width: 40px;
+	height: 40px;
+}
+
+.fale-conosco a{
+	color:#856443;
+}
+
+
+
+
+footer.site-footer-home{
+	background: url('../redefaunav2/images/bgfooter.png') #6f8753;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 48vh;
+	z-index: 1;
+}
+
+footer.site-footer-projetos{
+	background: url('../redefaunav2/images/bgfooter.png') #DFCABB;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 48vh;
+	z-index: 1;
+}
+
+footer.site-footer-publicacoes{
+	background: url('../redefaunav2/images/bgfooter.png') white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 48vh;
+	z-index: 1;
+}
+footer.site-footer{
+	background: url('../redefaunav2/images/bgfooter.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 48vh;
+	z-index: 1;
+}
